@@ -1,0 +1,8 @@
+jtype: TextCleaner
+py_modules:
+  - executor.py
+metas:
+  name: TextCleaner
+  description: Clean up messy chunks of text. Especially useful with OCRed input
+  url: https://github.com/alexcg1/executor-text-cleaner
+  keywords: ["ocr", "text", "scan", "clean", "utility"]
