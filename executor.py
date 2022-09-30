@@ -15,7 +15,7 @@ class TextCleaner(Executor):
         **kwargs
     ):
         """
-        :param rm_newlines: Remove all instances of "\r" and "\n"
+        :param rm_newlines: Remove all instances of "\\r" and "\\n"
         :param rm_multiple_spaces: Remove any instance of more than one space at a time, e.g. "  ", "   ". Retains single spaces
         :param rm_hyphen spaces: Words often break across lines and are hyphenated with "- ". This merges the two parts into one word
         :param convert_quotes: Convert curly quotes into standard quotes. needs more testing
